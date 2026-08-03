@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper text-ink font-sans;
+    font-feature-settings: "kern";
+  }
+
+  ::selection {
+    @apply bg-focus/20;
+  }
+
+  :focus-visible {
+    outline: 3px solid #2f6fed;
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .hairline {
+    @apply border-line;
+  }
+
+  .chart-letter {
+    font-family: "Newsreader", Georgia, serif;
+    font-variation-settings: "opsz" 72;
+  }
+}

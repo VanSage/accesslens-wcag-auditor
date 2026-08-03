@@ -1,0 +1,37 @@
+{
+  "name": "accesslens",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One-click WCAG accessibility auditor — finds issues, explains fixes, drafts alt text, scores the page.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "postinstall": "node scripts/copy-axe.js"
+  },
+  "dependencies": {
+    "axe-core": "^4.10.2",
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "jsdom": "^25.0.0",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.3",
+    "vitest": "^2.1.1"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
