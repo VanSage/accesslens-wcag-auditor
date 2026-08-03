@@ -2,8 +2,6 @@
   
 # AccessLens
 
-</div>
-
 **See what your users can't.**
   
 A one-click WCAG accessibility auditor. Paste any HTML and get real
