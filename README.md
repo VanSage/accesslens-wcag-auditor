@@ -1,7 +1,7 @@
 # AccessLens
 
 **See what your users can't.**
-
+  
 A one-click WCAG accessibility auditor. Paste any HTML and get real
 `axe-core` findings — grouped by severity, explained plainly, scored 0–100 —
 plus draft alt text for images missing it. No login. No API key required.
