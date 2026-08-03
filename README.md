@@ -1,5 +1,3 @@
-<div align="center">
-  
 # AccessLens
 
 **See what your users can't.**
