@@ -3,7 +3,7 @@
 Notes for any coding agent (Codex or otherwise) working in this repo.
 
 ## What this project is
-
+    
 AccessLens is a one-click WCAG accessibility auditor. Paste HTML → axe-core
 runs inside a sandboxed iframe → the app shows grouped violations, a
 deterministic 0–100 score, plain-English fixes, and draft alt text for
