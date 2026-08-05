@@ -3,7 +3,7 @@
 // sandboxed audit iframe's srcdoc (see lib/buildAuditDocument.ts) — this
 // lets axe-core execute *inside* the isolated frame without the frame ever
 // making a network request of its own (the frame's CSP is default-src 'none').
-const fs = require("fs");
+const fs = require("fs");                   
 const path = require("path");
 
 const src = path.join(
