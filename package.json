@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
-    "test:watch": "vitest",
+    "test:watch": "vitest",    
     "test:e2e": "playwright test",
     "postinstall": "node scripts/copy-axe.js"
   },
