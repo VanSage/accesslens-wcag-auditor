@@ -6,7 +6,7 @@ A one-click WCAG accessibility auditor. Paste any HTML and get real
 `axe-core` findings — grouped by severity, explained plainly, scored 0–100 —
 plus draft alt text for images missing it. No login. No API key required.
 
-Built for the ChatGPT Codex India Hackathon 2026, Track 8 — AI for Societal
+Built for the ChatGPT Codex India Hackathon 2026, Track 8 — AI for Societal   
 Good.
 
 ---
